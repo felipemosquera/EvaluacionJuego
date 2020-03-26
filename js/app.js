@@ -161,7 +161,7 @@ $(function(){
         segundos --
       } else if (segundos == 0 && minuto == 0) {
         clearInterval(myTimer);
-        TerminarJuego()
+        TerminarJuego();
       }
       if(segundos>9){
         $("#timer").html("0"+minuto+":"+segundos)
