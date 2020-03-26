@@ -1,7 +1,7 @@
 $(function(){
   iniciar();
   function CambiarColor(selector) {
-  	$(".main-titulo").animate({
+  	$(selector).animate({
   			opacity: '1',
   		}, {
   			step: function () {
