@@ -181,6 +181,7 @@ $(function(){
       $(".panel-score").animate({
         width: "100%",
       }, "slow")
+      console.log("Felipe Mosquera el juego termino");
     }
 
 
