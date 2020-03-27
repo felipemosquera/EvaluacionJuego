@@ -174,7 +174,7 @@ $(function(){
 
 
 
-
+////esto es para aprender con las ramas 
 
     function TerminarJuego() {
       $(".panel-tablero").hide("slow")
